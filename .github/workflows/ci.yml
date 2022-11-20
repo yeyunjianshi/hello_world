@@ -38,4 +38,4 @@ jobs:
     - run: pnpm test
     
     - name: depoly
-      run: pnpm run depoly
+      run: node ./depoly.sh
