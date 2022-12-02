@@ -9,10 +9,10 @@ cd dist
 echo > .nojekyll
 
 git init
-git checkout -B main
+git checkout -B gh-pages
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:yeyunjianshi/hello_world.git main:gh-pages
+git push -f git@github.com:yeyunjianshi/hello_world.git gh-pages
 
 cd -
